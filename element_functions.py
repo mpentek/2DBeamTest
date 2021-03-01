@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def get_stiffness_matrix_var(alpha, L=15.0, E=1200.0,Iy=1750.0):
+def get_stiffness_matrix_var(alpha, L=15.0, E=8750.0,Iy=17500.0):
 
     k_yy_11 = 12.0 * E * Iy / L**3
     k_yy_12 = -k_yy_11
